@@ -1,28 +1,30 @@
 /*
 Style Guide
-  > Primary Color: blue
-  > Secondary Color: slategray
+  > Primary Color: navy
+  > Secondary Color: 
 
 Typography
-  > font-family: 'Bangers', cursive;
+  > Header Font: Sigmar One
+  > Body Font: Merriweather
 */
 
+/* Sigmar One */
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
+/* Merriweather */
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body{
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+}
+
 h1{
-  color: blue;
-  font-family: 'Bangers', cursive;
+  color: navy;
+  font-family: 'Sigmar One', Georgia, 'Times New Roman', Times, serif;
   font-size: 48px;
-  letter-spacing: 75px;
   text-align: center;
 }
 
-ol{
-  color: slategray;
-}
-
 img{
-  width: 100%;
-}
-
-p{
-  color: slategray;
+  width: 500px;
 }
