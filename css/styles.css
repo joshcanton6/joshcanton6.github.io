@@ -16,13 +16,40 @@ Typography
 
 body{
   font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  color: white; 
 }
 
 h1{
-  color: navy;
+  color: white;
   font-family: 'Sigmar One', Georgia, 'Times New Roman', Times, serif;
   font-size: 48px;
   text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+h1 div {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  background: red;
+  height: 50px;
+  width: 50px;
+  padding: .25em;
+  transform: scale(0.5, 0.5) rotate(45deg);
+  transition: transform 0.5s, background 1s .5s;
+}
+
+h1 div:hover {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  background: blue;
+  transform: scale(3) rotate(405deg);
+  transition:
+    transform 0.5s 0.1s ease-in-out,
+    background 1s,
+    color 1s;
 }
 
 img{

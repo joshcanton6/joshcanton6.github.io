@@ -1,1 +1,1 @@
-console.log('Bingo');
+console.log('OK');
